@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMHMcNX28JBYY+ulGd0jrc7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/pjy0137852-dotcom/-/blob/main/%EA%B8%B0%EC%B4%88%ED%99%95%EB%A5%A0%EA%B3%BC%ED%86%B5%EA%B3%84%202%EC%A3%BC%EC%B0%A8\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ISkx_L3e4kIv",
+        "outputId": "a44783f5-09a5-41dc-aaa7-1df98087a333"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[6, 5, 4, 3, 2]\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = [2, 3, 4, 5, 6]\n",
+        "rev_a = []\n",
+        "for _ in range(len(a)):\n",
+        "  rev_a.append(a.pop())\n",
+        "print(rev_a)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "In1lzuJa6N1s"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
